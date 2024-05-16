@@ -1,0 +1,17 @@
+.blogHeading{
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+.cardArea{
+  width: min(100% 80rem);
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.card{
+  font-size: 1.6rem;
+  border: 1px solid var(--text-color);
+  padding: 1rem 2rem;
+}

@@ -1,0 +1,36 @@
+
+.swipeMeGroup{
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 8rem;
+  left: 0;
+}
+.arrowSwipe{
+  margin: 5px auto;
+  display: block;
+  width: 32px;
+  aspect-ratio: 42/25;
+  background: var(--text-color);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  animation: blinking 2s ease 0s infinite normal forwards;
+  &:nth-of-type(2){
+  animation: blinking 2s ease .1s infinite normal forwards;
+  }
+  &:nth-of-type(3){
+  animation: blinking 2s ease .2s infinite normal forwards;
+  }
+}
+.swipeMe{
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+@keyframes blinking {
+  0%{
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 1;
+  }
+}

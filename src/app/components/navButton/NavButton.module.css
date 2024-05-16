@@ -1,0 +1,31 @@
+.navButton{
+  width: 50px;
+  display: block;
+  position: relative;
+}
+.checkBox{
+  position: absolute;
+  top: -100vh;
+  left: -100vw;
+  opacity: 0;
+  &:checked ~ .lineLong{
+    transform: rotate(45deg) translateY(7.5px);
+    & ~ .lineShort{
+      transform: rotate(-45deg) translateY(-7.5px);
+      width: 100%;
+    }
+  }
+}
+.lineLong{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.lineShort{
+  display: block;
+  margin-top: 1rem;
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+}

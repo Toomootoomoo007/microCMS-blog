@@ -1,0 +1,14 @@
+.section{
+  padding-top: 5rem;
+  height: calc(100vh - 73px);
+  position: relative;
+}
+.heading{
+  font-size: 3.6rem;
+  text-align: center;
+}
+.paragraph{
+  margin: 5rem 0 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+}

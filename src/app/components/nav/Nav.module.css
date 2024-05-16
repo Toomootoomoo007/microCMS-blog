@@ -1,0 +1,21 @@
+.list{
+  position: absolute;
+  width: 100%;
+  z-index: 99999999;
+  top: 77px;
+  left: 0;
+  height: calc(100vh - 77px);
+  background: rgb(40, 40, 40);
+  text-align: center;
+  & > li {
+    margin-top: 5rem;
+  }
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem 6rem;
+
+}
