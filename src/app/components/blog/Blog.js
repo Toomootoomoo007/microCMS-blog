@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from './blog.module.css'
+import styled from './Blog.module.css'
 import Button from '../button/Button'
 import SwipeMe from '../swipeMe/SwipeMe'
 
